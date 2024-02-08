@@ -1,0 +1,105 @@
+*{
+  background-color: rgb(225, 106, 106);
+}
+.div{
+    /* display: block; */
+
+    /* width: 100px;
+    height: 100px; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+.div2{
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+}
+  @media (max-width: 800px) {
+    *{
+      background-color: brown;
+    }
+    .div{
+      flex-direction: column;
+ 
+    }
+    .div2{
+      background-color: blueviolet;
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+    }
+  }
+  @media (max-width: 700px) {
+    *{
+      background-color: rgb(42, 165, 46);
+    }
+    .div{
+      flex-direction: column;
+    }
+    .div2{
+      background-color: rgb(77, 112, 146);
+      width: 190px;
+      height: 190px;
+      margin: 10px;
+    }
+  }
+  @media (max-width: 600px) {
+    *{
+      background-color: yellow;
+    }
+    .div{
+      flex-direction: column;
+ 
+    }
+    .div2{
+      background-color: chartreuse;
+      width: 180px;
+      height: 180px;
+      margin: 10px;
+    }
+  }
+  @media (max-width: 500px) {
+    *{
+      background-color: violet;
+    }
+    .div{
+      flex-direction: column;
+ 
+    }
+    .div2{
+      background-color: crimson;
+      height: 170px;
+      margin: 10px;
+    }
+  }
+  @media (max-width: 400px) {
+    *{
+      background-color: skyblue;
+    }
+    .div{
+      flex-direction: column;
+ 
+    }
+    .div2{
+      background-color: darkcyan;
+      width: 150px;
+      height: 150px;
+      margin: 10px;
+    }
+  }
+  @media (max-width: 300px) {
+    *{
+      background-color: rosybrown;
+    }
+    .div{
+      flex-direction: column;
+ 
+    }
+    .div2{
+      background-color: plum;
+      width: 120px;
+      height: 120px;
+      margin: 10px;
+    }
+  }
